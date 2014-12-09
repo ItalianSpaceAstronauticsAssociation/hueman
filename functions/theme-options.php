@@ -160,7 +160,16 @@ function custom_theme_options() {
 			'section'	=> 'general',
 			'rows'		=> '3'
 		),
-		// General: Comments
+	 // General: OptionTree
+	        array(
+	            'id'		=> 'admin-ot-page',
+	            'label'		=> 'Option Tree Page',
+	            'desc'		=> 'Show OptionTree Pages in Admin-Area',
+	            'std'		=> 'off',
+	            'type'		=> 'on-off',
+	            'section'	=> 'general'
+	        ),	
+	// General: Comments
 		array(
 			'id'		=> 'page-comments',
 			'label'		=> 'Page Comments',

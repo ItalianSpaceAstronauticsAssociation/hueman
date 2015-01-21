@@ -26,3 +26,13 @@ When you update your theme, backup this file and re-add it after.
 @media only screen and (max-width: 479px) {
 	.mystyle {}
 }
+
+
+/* Cross site modifications (not in child theme) */
+
+#header { padding-bottom: 30px; }
+
+
+
+}
+/* End Cross site modifications */

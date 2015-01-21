@@ -36,7 +36,14 @@ body {
 color: #000000 !important;
 }
 
+.entry.excerpt {
+font-size: 14px;
+color: #000;
+}
 
+
+.entry .wp-caption-text {
+color: #000;
 
 }
 /* End Cross site modifications */

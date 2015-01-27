@@ -14,6 +14,7 @@
 
 <body <?php body_class(); ?>>
 
+<?php include '/var/www/shared/omnibar/omnibar3.php';?>
 <div id="wrapper">
 
 	<header id="header">

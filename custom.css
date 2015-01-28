@@ -30,7 +30,7 @@ When you update your theme, backup this file and re-add it after.
 
 /* Cross site modifications (not in child theme) */
 
-#header { padding-bottom: 30px; }
+/*#header { padding-bottom: 30px; }*/
 
 body {
 color: #000000 !important;

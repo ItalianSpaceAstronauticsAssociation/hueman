@@ -1010,7 +1010,7 @@ transition-property: background color; transition-duration: 0.2s; transition-tim
 .format-gallery .post-format .flexslider { overflow: visible; padding-bottom: 30px; margin-bottom: -20px; }
 .format-gallery .post-format .flexslider .slides { background: #262626; overflow: hidden; position: relative; }
 .format-gallery .post-format .flexslider .slides img { max-height: 405px; width: auto; max-width: 100%; -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.6); box-shadow: 0 0 30px rgba(0,0,0,0.6); }
-.format-gallery .post-format .flexslider .flex-control-nav { bottom: 1px; }  
+.format-gallery .post-format .flexslider .flex-control-nav {/* bottom: 1px;*/ }  
 .format-gallery .post-format .flex-direction-nav a:before { color: #fff; }
 
 /*  post format : audio
@@ -1515,7 +1515,7 @@ html[xmlns] .slides { display: block; }
 .flex-direction-nav .flex-prev:before { content: "\f053"; }
 
 /* control nav */
-.flex-control-nav { width: 100%; position: absolute; bottom: -30px; text-align: center; }
+.flex-control-nav { width: 100%; position: absolute; /* bottom: -30px; */ text-align: center; }
 .flex-control-nav li { margin: 0 3px; display: inline-block; zoom: 1; *display: inline; }
 .flex-control-nav li a { background: rgba(0,0,0,0.15); width: 10px; height: 10px; display: block; cursor: pointer; text-indent: -999px; overflow: hidden;
 -webkit-border-radius: 100%; border-radius: 100%; }
